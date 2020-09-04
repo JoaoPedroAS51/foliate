@@ -298,6 +298,9 @@ const setStyle = style => {
             'font-size': `${fontSize}px !important`,
             'line-height': `${spacing} !important`
         },
+        [`.${themeName} span`]: {
+            'line-height': `initial !important`
+        },
         [`.${themeName} code, .${themeName} pre`]: {
             '-webkit-hyphens': 'none'
         },
